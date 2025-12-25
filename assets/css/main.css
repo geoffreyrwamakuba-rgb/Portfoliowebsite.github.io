@@ -1659,3 +1659,22 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Remove extra space under View Project button */
+#main article ul.actions {
+  margin-bottom: 0;
+}
+
+
+/* Popup padding control */
+#main article {
+  padding-top: 1.5rem;      /* was 4.5rem */
+  /* padding-bottom: 1.5rem; */
+}
+
+@media screen and (max-width: 736px) {
+  #main article {
+    padding-top: 2.0rem;  /* was 3.5rem */
+    /* padding-bottom: 0.5rem; was 0.5rem */
+  }
+}
