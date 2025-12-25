@@ -1664,7 +1664,6 @@ input, select, textarea {
 #main article ul.actions {
   margin-bottom: 0;
 }
-
 /* Popup padding control */
 #main article {
   padding-top: 3rem;      /* was 4.5rem */
@@ -1677,3 +1676,4 @@ input, select, textarea {
     padding-bottom: 0.75rem;
   }
 }
+
